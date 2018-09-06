@@ -21,7 +21,7 @@ class ResponseHandler :ResponseListener {
 };
 
 int main(int argc, char* argv[]) {
-    MarsConfig config("39.106.56.27",9001);
+    MarsConfig config("39.106.56.27",9001);//connect to a test server
     init(config);
     PushHandler pushHandler;
     registerPushListener((PushListener*)&pushHandler);
