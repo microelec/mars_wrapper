@@ -6,6 +6,12 @@ Mars from Tencent is a very nice net transport layer solution for mobile APP. wh
 I'm trying to wrappe it for simple usage. Anyone who want to involve MARS into his project could take this one as a start or a reference.
 demo/demo.cpp is an example how to use this project. Have fun. :)
 # Windows
+### build requirement
+  - cmake
+  - vs2015
+  - python2.7
+  
+### build steps
 1. compile MARS and copy the mars.lib(marsd.lib if debug) to ./libs/mars/windows
 2. cd ./build and mkdir _run
 3. cd ./build/_run and cmake ..
